@@ -3,6 +3,7 @@ import functions
 todolist = functions.get_todolist()
 
 
+
 def add_todo():
     todo = st.session_state["new_todo"]+ "\n"
     todolist.append(todo)
